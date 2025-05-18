@@ -29,8 +29,6 @@ Thymeleaf 템플릿을 활용해 사용자에게 따뜻한 메시지를 전달�
 ## 📸 미리보기
 
 > [http://localhost:8080](http://localhost:8080)
-
-![screenshot](https://user-images.githubusercontent.com/your-screenshot.png)
 > ✨ 브라우저에서 보여지는 운세 화면 예시
 > ![image](https://github.com/user-attachments/assets/80983fa5-b30c-43ce-950b-7773939c3df9)
 
