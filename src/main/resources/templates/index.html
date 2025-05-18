@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>오늘의 운세</title>
+</head>
+<body style="background-color: #f5f6fa; font-family: 'Arial'; text-align: center; padding-top: 100px;">
+
+  <h1 style="font-size: 36px; color: #e84393;">🌟 오늘의 운세 🌟</h1>
+
+  <p th:text="${fortune}"
+     style="font-size: 24px; font-weight: bold; color: #2f3640; margin-top: 30px;">
+  </p>
+
+  <form method="get" action="/">
+    <button type="submit"
+            style="margin-top: 40px; padding: 12px 24px; font-size: 16px; border: none;
+                   background-color: #0984e3; color: white; border-radius: 8px; cursor: pointer;">
+      다시 뽑기 🔁
+    </button>
+  </form>
+
+</body>
+</html>
